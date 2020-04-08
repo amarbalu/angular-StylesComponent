@@ -3,5 +3,5 @@ p {
 }
 /* child css chnage in class which modifies viewencapsulation in encapsultion to none */
 ::ng-deep .child{
- color:blue; 
+ color:white; 
 }

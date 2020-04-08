@@ -1,4 +1,8 @@
-<hello  name="{{ name }}"></hello>
+<hello  name="{{ name }}" class="backg"></hello>
 <p [ngStyle]="styleVar">
  3) ngStyle usage
 </p>
+<p>black border - :host</p>
+<p>red background - :host context(.classname)
+  </p>
+  <p>white font - ::ng-deep .classname</p>
